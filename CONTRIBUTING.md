@@ -21,7 +21,7 @@ On <https://github.com/OpenMined/PySyft/issues> you can find all open Issues. Yo
 To contribute to PySyft you will need to fork the OpenMind/PySyft repository.
 Then you can work risk-free on your fork.
 
-You will just need to fork once. After that you can call `git fetch upstream` and `git pull 'branch-name'` before you do your local changes to get the remote changes and be up-to-date
+You will just need to fork once. Set the upstream remote using `git remote add upstream https://github.com/OpenMined/PySyft.git`. After that you can call `git fetch upstream` and `git pull 'branch-name'` before you do your local changes to get the remote changes and be up-to-date
 
 ### Setting up Pre-Commit Hook
 
@@ -44,7 +44,7 @@ To install the development version of the package, once the `dev` version of the
 cd PySyft
 pip install -e .
 ```
-If you are using a virtual environment, please be sure to use the correct executable for `pip` or `python` instead. 
+If you are using a virtual environment, please be sure to use the correct executable for `pip` or `python` instead.
 
 ## Contributing
 
